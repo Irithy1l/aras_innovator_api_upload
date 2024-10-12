@@ -1,3 +1,55 @@
+### Overview
+
+Baitech PDM extension is an extension designed to simplify BOM upload
+- Allow users to quickly upload existing BOMs to the Aras Innovator platform to achieve project sharing and storage
+
+### Download, install and run methods
+
+1. Access Aras Innovator and select **File Download** in the left menu
+2. Select **PDM extension** Download
+3. Unzip the downloaded compressed package
+4. Run **window.exe**
+
+### Compiler
+
+This extension is compiled with **Python 3.12**
+
+### Run dependent external libraries
+
+- requests
+- tkinter
+- sv_ttk
+- threading
+
+### Development method
+
+- Transmit information and files through **Aras Innovator RESTful API**
+- Build the user interface through **Tkinter** and beautify the interface through **Sun-Valley-ttk-theme**
+- Run the file through **Pyinstaller** generated, the folder contains the external libraries required for running
+
+### Privacy
+
+- After logging in, the extension will save the username
+- If you choose to remember the password, the user's password will also be saved
+
+### Reference files
+
+- Official documents
+  - [Aras Innovator 2024 Release Installation Guide](https://aras.com/wp-content/uploads/2024/06/Aras-Innovator-2024-Release-Installation-Guide.pdf)
+  - [Aras Innovator 29 Programmer's Guide](https://www.aras.com/community/DocumentationLibrary/ALL%20PDFs/Flare%20PDF/Flare%20PDF/Innovator%2029/Aras%20Innovator%2029%20-%20Programmer's%20Guide.pdf)
+  - [Aras Innovator 2024 Release RESTful API](https://media.aras.com/wp-content/uploads/2024/05/Aras-Innovator-2024-Release-RESTful-API.pdf)
+
+- Authentication login example
+  - [OAuth and the Aras RESTful API](https://github.com/ArasLabs/rest-auth-example)
+
+- Upload file example
+  - [Uploading Files via the Aras Innovator REST API](https://aras.com/en/blog/uploading-files-via-the-aras-innovator-rest-api)
+  - [Official upload file example JavaScript](https://github.com/ArasLabs/rest-upload-example)
+
+- Sun-Valley-ttk-theme
+  - [sv_ttk Github](https://github.com/rdbende/Sun-Valley-ttk-theme)
+  - [sv_ttk Example](https://github.com/rdbende/Sun-Valley-ttk-examples)
+
 ### 概述
 
 百工汇智PDM拓展程序是一款旨在简化BOM表上传的拓展程序
@@ -36,7 +88,7 @@
 
 - 官方文档
   - [Aras Innovator 安装手册](https://aras.com/wp-content/uploads/2024/06/Aras-Innovator-2024-Release-Installation-Guide.pdf)
-  - [Aras Innovator 二次开发手册](https://media.aras.com/wp-content/uploads/2024/06/Aras-Innovator-2024-Release-Installation-Guide.pdf)
+  - [Aras Innovator 二次开发手册](https://www.aras.com/community/DocumentationLibrary/ALL%20PDFs/Flare%20PDF/Flare%20PDF/Innovator%2029/Aras%20Innovator%2029%20-%20Programmer's%20Guide.pdf)
   - [Aras Innovator API 手册](https://media.aras.com/wp-content/uploads/2024/05/Aras-Innovator-2024-Release-RESTful-API.pdf)
 
 - 验证登录样例
